@@ -7,7 +7,7 @@ function ListMovies(){
     const [datamovies, setDatamovies] = useState([])
 
     useEffect(() => {
-        axios.get('/api/movie/getmovies').then(res => {
+        axios.get('/api/movie/GetMovies').then(res => {
             console.log(res.data)
             setDatamovies(res.data)
         }).catch(err => {

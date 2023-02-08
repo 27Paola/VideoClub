@@ -1,6 +1,8 @@
 import React,{useState} from 'react';
 import uniqid from 'uniqid'
 import axios from 'axios'
+import Swal from 'sweetalert2'
+import { useNavigate } from 'react-router-dom';
 
 function AddMovie(){
     
@@ -11,6 +13,9 @@ function AddMovie(){
     const [lang, setLang] = useState('')
     const [director, setDirector] = useState('')
     const [country, setCountry] = useState('')
+
+    // Go to index
+    const navigator = useNavigate()
 
     function addMovie(){
         var movie = {
@@ -23,9 +28,11 @@ function AddMovie(){
             idmovie: uniqid()
         }
         console.log(movie)
-        axios.post('/api/movie/addmovie', movie)
+        axios.post('/api/movie/AddMovie', movie)
         .then(res => {
-            alert(res.data)
+            //alert(res.data)
+            Swal.fire("Buen trabajo", "La película se añadio correctamente")
+            navigator('/')
         })
         .then(err => {console.log(err)})
     }
