@@ -52,7 +52,8 @@ The tools that were used to create this project are:
 
 ## Authors✒️
 
-- [@SoffiaSanchezz](https://github.com/SoffiaSanchezz).
-- [@27Paola](https://github.com/27Paola).
+- [@SoffiaSanchezz](https://github.com/SoffiaSanchezz)
+- [@27Paola](https://github.com/27Paola)
 - [@manuel101284](https://github.com/manuel101284)
-- [@adrianapico](https://github.com/adrianapico).
+- [@adrianapico](https://github.com/adrianapico)
+- [@Ladyriv](https://github.com/Ladyriv)
