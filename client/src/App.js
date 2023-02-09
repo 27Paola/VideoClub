@@ -6,14 +6,13 @@ import EditMovie from './EditMovie';
 import DeleteMovie from './DeleteMovie';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import NavBar from './NavBar';
 
 function App() {
   return (
     <div classNameName="App">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
-          <a className="navbar-brand" href="/">Video Club</a>
+          <a className="navbar-brand" href="/">CRUD MERN STACK Video Club</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -30,9 +29,6 @@ function App() {
         </div>
       </nav>
 
-    {/* <div className="App">
-      <NavBar /> */}
-      
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<ListMovies/>} exact/>
