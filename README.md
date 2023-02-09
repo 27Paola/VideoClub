@@ -51,9 +51,9 @@ The tools that were used to create this project are:
  
  ### Framework
  
- - aos 
- - sweet alert 
- - bootstrap
+ - Aos 
+ - Sweet alert 
+ - Bootstrap
  
 ## project documentation
 
