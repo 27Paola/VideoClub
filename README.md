@@ -1,11 +1,12 @@
 # Project VideoClub 🎬
 
-The organization of the video store has requested an interface where you can read, generate, modify and delete the data they have in their database. To do this, it creates a table that represents each record with its respective data, based on the existing downloaded Movie DB. The table can create new records and there is one in each the alternative to edit and delete.
+The organization of the video store has requested an interface where you can read, generate, modify and delete the data they have in their database. To do this, it creates a table that represents each record with its respective data, based on the existing downloaded Movie DB. The table can create new records and there is one in each the alternative to edit and delete. 
+
+![GraphiChart](https://github.com/27Paola/VideoClub/blob/6787b8b052633b9ea61b29785984190867bb1f54/GraphiChart.png)
 
 ## Starting 🚀
 
 These instructions will allow you to obtain a copy of the project on your local device for website development purposes.
-
 See Deployment to learn how to deploy the project.
 
 ### Prerequisites 📋
@@ -30,7 +31,7 @@ What things do you need to install the software and how to see it on the local d
 ### Installation 🔧
 
 - As it should be observed in the Deployment
-![Version Desktop]()
+![Version Responsive]()
 
 
 ## Deployment 📦
