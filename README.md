@@ -48,7 +48,20 @@ The tools that were used to create this project are:
 
  - [Mongo Atlas] - Used to store the information of the database.
  - [React.Js] - Used for the content of the page that the user will observe.
+ 
+ ### Framework
+ 
+ - aos 
+ - sweet alert 
+ - bootstrap
+ 
+## project documentation
 
+A project document was made with the entire process during the project
+
+```bash
+https://docs.google.com/document/d/1KnRWMTS-1Db_1pwWjHOEMK2pVjU7kBaW1XBDrV2PoQI/edit?usp=sharing
+```
 
 ## Authors✒️
 
